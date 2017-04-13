@@ -61,11 +61,13 @@ alias ls='ls -Gp'
 # ~~~~~~~~~~~~~~~~~~~~~
 # From here down is the code for our custom command prompt
 
+# First printed line in terminal. This only prints once, each time you log into
+# a session on the command line.
+printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "cmilr" "$PWD"
 
 # This prints our prompt lines—PS1 is for single-line prompts, while PS2 is for multi-line.
 PS1=' \[\e[1;33m\]~~ \[\e[1;31m\]'
 PS2=' \[\e[1;33m\]~+ \[\e[1;31m\]'
-
 
 # This function will run before any command is executed. Since we're colorizing various
 # commands, we're using this function to set the text color back to default before every prompt.
@@ -80,19 +82,22 @@ function PreCommand() {
 }
 trap "PreCommand" DEBUG
 
-
 # This will run after the execution of the previous full command line.
 FIRST_PROMPT=1
 
 function PostCommand()
 {
-  # Set terminal tab titles.
+  #Set terminal tab titles.
   echo -n -e "\033]0;${PWD##*/}\007"
 
   AT_PROMPT=1
 
+  if [ -n "$FIRST_PROMPT" ]; then
+    unset FIRST_PROMPT
+    return
+  fi
+
   # This prints the line of info that appears before each actual prompt.
-  printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "$USER" "$PWD"
-  
+  printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "cmilr" "$PWD"
 }
 PROMPT_COMMAND="PostCommand"
