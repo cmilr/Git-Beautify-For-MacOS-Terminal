@@ -63,7 +63,7 @@ alias ls='ls -Gp'
 
 # First printed line in terminal. This only prints once, each time you log into
 # a session on the command line.
-printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "cmilr" "$PWD"
+printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "$USER" "$PWD"
 
 # This prints our prompt lines—PS1 is for single-line prompts, while PS2 is for multi-line.
 PS1=' \[\e[1;33m\]~~ \[\e[1;31m\]'
@@ -98,6 +98,6 @@ function PostCommand()
   fi
 
   # This prints the line of info that appears before each actual prompt.
-  printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "cmilr" "$PWD"
+  printf "\n$txtblu%s @ $txtblu%s $txtpur%s\n$txtrst" "$USER" "$PWD"
 }
 PROMPT_COMMAND="PostCommand"
