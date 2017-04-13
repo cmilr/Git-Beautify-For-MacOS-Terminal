@@ -1,11 +1,6 @@
-# Product Name
-> Short blurb about what your product does.
+# Beautify Your MacOS or OSX Terminal
 
-[![NPM Version][npm-image]][npm-url]
-[![Build Status][travis-image]][travis-url]
-[![Downloads Stats][npm-downloads]][npm-url]
-
-One to two paragraph statement about your product and what it does.
+This set of config files can help transform your command line from something ugly and painful to something delightful and easy-to-read.
 
 ![](screenshot.png)
 
