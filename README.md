@@ -1,21 +1,26 @@
-# Beautify Your MacOS or OSX Terminal
+# Beautify Git in Your MacOS or OSX Terminal
 
 This set of config files can help transform your command line from something ugly and painful to something delightful and easy-to-read.
 
 ![](screenshot.png)
 
-## Installation
+## Setup
+First things first, you'll want to install a nice color theme for your terminal. The one in the screenshot above is called TupeloHoney, and you'll find it included in this repo. I based it off of the most excellent [Flat terminal theme](https://github.com/ahmetsulek/flat-terminal) from [ahmetsulek](https://github.com/ahmetsulek).
 
-OS X & Linux:
+You can load the theme by opening up your mac terminal and navigating to **Preferences > Profiles > Import**.
+
+With that out of the way, we can now log into the bash terminal and set our git configuration to display colors. Here's my setup from the above screenshot.
+
+MacOS & OS X:
 
 ```sh
-npm install my-crazy-module --save
-```
-
-Windows:
-
-```sh
-edit autoexec.bat
+git config --global color.ui true
+git config --global color.status.changed "blue normal"
+git config --global color.status.untracked "red normal"
+git config --global color.status.added "magenta normal"
+git config --global color.status.updated "green normal"
+git config --global color.status.branch "yellow normal bold"
+git config --global color.status.header "white normal bold"
 ```
 
 ## Usage example
@@ -33,16 +38,6 @@ npm test
 
 ## Release History
 
-* 0.2.1
-    * CHANGE: Update docs (module code remains unchanged)
-* 0.2.0
-    * CHANGE: Remove `setDefaultXYZ()`
-    * ADD: Add `init()`
-* 0.1.1
-    * FIX: Crash when calling `baz()` (Thanks @GenerousContributorName!)
-* 0.1.0
-    * The first proper release
-    * CHANGE: Rename `foo()` to `bar()`
 * 0.0.1
     * Work in progress
 
@@ -59,10 +54,3 @@ npm test
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 # Thanks for stopping by!
-
-
-[npm-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
-[npm-url]: https://npmjs.org/package/datadog-metrics
-[npm-downloads]: https://img.shields.io/npm/dm/datadog-metrics.svg?style=flat-square
-[travis-image]: https://img.shields.io/travis/dbader/node-datadog-metrics/master.svg?style=flat-square
-[travis-url]: https://travis-ci.org/dbader/node-datadog-metrics
