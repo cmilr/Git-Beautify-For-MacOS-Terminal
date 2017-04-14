@@ -22,7 +22,7 @@ git config --global color.status.updated "green normal"
 git config --global color.status.branch "yellow normal bold"
 git config --global color.status.header "white normal bold"
 ```
-Now you'll need to update your .bash_profile with the contents of the bash_profile file included in the repo. The easiest way to do this will be to first *show all hidden files* on your system, because .bash_profile is usually set to invisible. You can show hidden files by pasting the following command into your terminal.
+Now you'll need to update your .bash_profile with the contents of the bash_profile included in the repo. The easiest way to do this will be to first *show all hidden files* on your system, because .bash_profile is usually set to invisible. You can show hidden files by pasting the following command into your terminal.
 
 ```sh
 defaults write com.apple.finder AppleShowAllFiles YES; killall Finder /System/Library/CoreServices/Finder.app
