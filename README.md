@@ -1,4 +1,4 @@
-# Beautify Git in Your MacOS or OSX Terminal
+# Git Beautifier For MacOS & OSX Terminal
 
 This set of config files will transform your command line from ugly and painful to delightful and easy-to-read.
 
@@ -10,8 +10,6 @@ First things first, you'll want to install a nice color theme for your terminal.
 Load the theme by opening up your mac terminal and navigating to **Preferences > Profiles > Import**, and then set the theme as your default.
 
 Now log into your bash terminal and punch in the following git config commands. You should be able to copy & paste them as a full block and just hit return. This tells git that we want color in our UI, and sets specific colors for specific file status types.
-
-**MacOS & OS X:**
 
 ```sh
 git config --global color.ui true
