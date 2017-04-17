@@ -37,24 +37,31 @@ bakcyn='\e[46m'   # Cyan
 bakwht='\e[47m'   # White
 txtrst='\e[0m'    # Text Reset
 
-# Format git logs & create aliases
+# Colorized aliases
 # Basic log
-alias log="printf '$bldcyn' && git show-ref --abbrev && printf '\n$txtgrn' && git log --pretty=format:'%C(green)%h%Creset - %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an%C(green) -} %C(blue) %s' --abbrev-commit --date=relative" 
+alias log="printf '$bldcyn' && git log --pretty=format:'%D' -1 && git log --pretty=format:'%C(green)%h%Creset ≁ %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an%C(green) ⟹  %C(blue) %s' --abbrev-commit --date=relative" 
 
 # Basic log with graph
-alias logg="printf '$bldcyn' && git show-ref --abbrev && printf '\n$txtrst' && git log --graph --pretty=format:'%C(green)%h%Creset - %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an%C(green) -} %C(blue) %s' --abbrev-commit --date=relative"
+alias logg="printf '$bldcyn' && git log --pretty=format:'%D' -1 && git log --graph --pretty=format:'%C(green)%h%Creset ≁ %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an%C(green) ⟹  %C(blue) %s' --abbrev-commit --date=relative"
 
 # Verbose log
-alias logv="printf '$bldcyn' && git show-ref --abbrev && printf '\n$txtgrn' && git log --pretty=format:'%C(green)%h%Creset - %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an %Creset%ce%C(green) -} %C(blue) %s' --abbrev-commit --date=relative"
+alias logv="printf '$bldcyn' && git log --pretty=format:'%D' -1 && git log --pretty=format:'%C(green)%h%Creset ≁ %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an %Creset%ce%C(green) ⟹  %C(blue) %s' --abbrev-commit --date=relative"
 
 # Verbose log with graph
-alias loggv="printf '$bldcyn' && git show-ref --abbrev && printf '\n$txtrst' && git log --graph --pretty=format:'%C(green)%h%Creset - %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an %Creset%ce%C(green) -} %C(blue) %s' --abbrev-commit --date=relative"
+alias loggv="printf '$bldcyn' && git log --pretty=format:'%D' -1 && git log --graph --pretty=format:'%C(green)%h%Creset ≁ %C(yellow)%>(12,trunc)%cr%C(white) %>(11,trunc)%an %Creset%ce%C(green) ⟹  %C(blue) %s' --abbrev-commit --date=relative"
 
 # Log with full commit messages
-alias logm="printf '$bldcyn' && git show-ref --abbrev && printf '\n$txtgrn' && git log --format=format:'%Creset%Cgreen%h%Creset | %C(white)%an | %C(yellow)%cr%n%Creset%s%n%n%b%n'"
+alias logm="printf '$bldcyn' && git log --pretty=format:'%D' -1 && git log --format=format:'%Creset%Cgreen%h%Creset | %C(white)%an | %C(yellow)%cr%n%Creset%s%n%n%b%n'"
+
+# Show refs
+alias refs="printf '$bldcyn' && git show-ref --abbrev && printf '$txtrst'"
+
+# Show remote refs and urls
+alias remotes="printf '$txtpur' && git remote -v && printf '$bldcyn\n' && git branch -r --no-color && printf '$txtrst'" 
 
 # Alias for colorized -ls command
 alias ls='ls -Gp'
+
 
 
 # CUSTOM COMMAND PROMPT

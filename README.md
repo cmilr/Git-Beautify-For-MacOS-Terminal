@@ -47,12 +47,14 @@ log
 ```
 Type in 'log' and hit return, and you should get a nicely formatted basic log, starting with a list of refs on top, followed by all your commits.
 
-Now explore the other log aliases if you like:
+Now explore the other colorized aliases if you like:
 - 'log' displays a basic git log with single-line commit messages only (this is the one I use most often.)
 - 'logv' displays a more verbose log, including email addresses for commit authors. 
 - 'logg' displays an ascii graph of your branches, along with basic log info.
 - 'loggv' displays an ascii graph of your branches, along with more verbose log info.
 - 'logm' displays multi-line commit messages.
+- 'refs' displays your repo's refs and abbreviated hashes.
+- 'remotes' display your repo's remotes and remote branches.
 
 Lastly, type in the trusty '-ls' bash command and you should see a nicely colorized list of files, directories, etc.
 
