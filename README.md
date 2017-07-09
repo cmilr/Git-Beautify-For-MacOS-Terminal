@@ -71,7 +71,7 @@ Well, that's it. You're good to go!
 - Email: cary.a.miller@gmail.com
 
 ### Social Media
-- Twitter: [@vintageD18](https://twitter.com/vintageD18)
+- Twitter: [@cmilr_](https://twitter.com/cmilr_)
 - GitHub: [https://github.com/cmilr/](https://github.com/cmilr/)
 
 ### License
