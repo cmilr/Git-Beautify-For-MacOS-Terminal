@@ -98,7 +98,7 @@ Badge References
 <!--
 URL References
 -->
-[repo]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal
+[repo]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/releases
 [issues]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/issues
 [license]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/blob/master/LICENSE
 [coc]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/blob/master/CODE_OF_CONDUCT.md
