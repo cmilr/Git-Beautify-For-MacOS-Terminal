@@ -1,11 +1,11 @@
 # Git Beautifier For MacOS & OSX Terminal
 
-This set of config files will transform your command line from ugly and painful to delightful and easy-to-read.
+This set of config files and themes will transform your command line from ugly and painful to delightful and easy-to-read.
 
 ![](screenshot.png)
 
 ## Setup
-First things first, you'll want to install a nice color theme for your terminal. The one in the screenshot above is called TupeloHoney, and you'll find it included in the repo. I based it off of the most excellent [Flat](https://github.com/ahmetsulek/flat-terminal) theme.
+First things first, you'll want to install a nice color theme for your terminal. The one in the screenshot above is called Monokai Soda Custom, and you'll find it included in the repo. I based it off of the most excellent Monokai Soda theme, [found here](https://github.com/lysyi3m/osx-terminal-themes).
 
 Load the theme by opening up your mac terminal and navigating to **Preferences > Profiles > Import**, and then set the theme as your default.
 
@@ -49,7 +49,7 @@ Type in 'log' and hit return, and you should get a nicely formatted basic log, s
 
 Now explore the other colorized aliases if you like:
 - 'log' displays a basic git log with single-line commit messages only (this is the one I use most often.)
-- 'logv' displays a more verbose log, including email addresses for commit authors. 
+- 'logv' displays a more verbose log, including email addresses for commit authors.
 - 'logg' displays an ascii graph of your branches, along with basic log info.
 - 'loggv' displays an ascii graph of your branches, along with more verbose log info.
 - 'logm' displays multi-line commit messages.
