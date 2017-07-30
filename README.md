@@ -68,7 +68,7 @@ Well, that's it. You're good to go!
 
 ## Release History
 * 1.0.0
-	* CHANGE: Updated terminal color theme
+	* CHANGE: Update terminal color theme
 * 0.0.1
     * Work in progress
 
