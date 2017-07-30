@@ -1,6 +1,6 @@
 # Git Beautifier For MacOS & OSX Terminal
 
-This set of config files and themes will transform your command line from ugly and painful to delightful and easy-to-read.
+Transform your command line from ugly and painful to delightful and easy-to-read.
 
 ![](screenshot.png)
 
