@@ -1,3 +1,9 @@
+[![GitHub release][version-badge]][repo]&nbsp;
+[![GitHub issues][issues-badge]][issues]&nbsp;
+[![GitHub license][license-badge]][license]&nbsp;
+[![Code of Conduct][coc-badge]][coc]&nbsp;
+[![PRs Welcome][prs-badge]][prs]
+
 # Git Beautifier For MacOS & OSX Terminal
 
 Transform your command line from ugly and painful to delightful and easy-to-read.
@@ -61,7 +67,8 @@ Lastly, type in the trusty '-ls' bash command and you should see a nicely colori
 Well, that's it. You're good to go!
 
 ## Release History
-
+* 1.0.0
+	* Updated terminal color theme
 * 0.0.1
     * Work in progress
 
@@ -78,3 +85,21 @@ Well, that's it. You're good to go!
 Distributed under the MIT license. See ``LICENSE`` for more information.
 
 # Thanks for stopping by!
+
+<!--
+Badge References
+-->
+[version-badge]:https://img.shields.io/github/release/cmilr/Git-Beautify-For-MacOS-Terminal.svg
+[issues-badge]:https://img.shields.io/github/issues/cmilr/Git-Beautify-For-MacOS-Terminal.svg
+[license-badge]:https://img.shields.io/github/license/cmilr/Git-Beautify-For-MacOS-Terminal.svg
+[coc-badge]:https://img.shields.io/badge/code%20of-conduct-ff69b4.svg?style=flat
+[prs-badge]:https://img.shields.io/badge/%E2%99%A5%EF%B8%8F%20pull%20requests-welcome-orange.svg
+
+<!--
+URL References
+-->
+[repo]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal
+[issues]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/issues
+[license]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/blob/master/LICENSE
+[coc]:https://github.com/cmilr/Git-Beautify-For-MacOS-Terminal/blob/master/CODE_OF_CONDUCT.md
+[prs]:http://makeapullrequest.com
