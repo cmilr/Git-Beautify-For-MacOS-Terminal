@@ -66,20 +66,12 @@ Lastly, type in the trusty '-ls' bash command and you should see a nicely colori
 
 Well, that's it. You're good to go!
 
-## Release History
-* 1.0.0
-	* CHANGE: Update terminal color theme
-* 0.0.1
-    * Work in progress
-
-##
+## Questions? Drop Us a Line!
 
 ### Contact
 - Email: cary.a.miller@gmail.com
-
-### Social Media
 - Twitter: [@cmilr_](https://twitter.com/cmilr_)
-- GitHub: [https://github.com/cmilr/](https://github.com/cmilr/)
+- GitHub: [cmilr](https://github.com/cmilr/)
 
 ### License
 Distributed under the MIT license. See ``LICENSE`` for more information.
