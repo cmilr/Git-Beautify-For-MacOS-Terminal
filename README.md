@@ -70,7 +70,7 @@ Well, that's it. You're good to go!
 
 ### Contact
 - Email: cary.a.miller@gmail.com
-- Twitter: [@cmilr_](https://twitter.com/cmilr_)
+- Twitter: [@cmillerco](https://twitter.com/cmillerco)
 - GitHub: [cmilr](https://github.com/cmilr/)
 
 ### License
